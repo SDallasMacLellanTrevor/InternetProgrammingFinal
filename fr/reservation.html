@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Reservation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../reservation.css'>
+    <script src='reservation.js'></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="inner_header">
+                <a href="index.html">
+                    <div class="logo_container">
+                        <img src="../images/logo.png">
+                        <h1>Restaurant Name</h1>
+                    </div>
+                    <ul class="nav_elements">
+                        <a class="language" href="../en/reservation.html"><li>EN</li></a>
+                        <a class="contact" href="../fr/contact.html"><li>Contactez-nou</li></a>
+                        <a class="reservation" href="../fr/reservation.html"><li>Réservation</li></a>
+                        <a class="order" href="../fr/checkout.html">
+                            <li>
+                            <img src="../images/checkout.png" class="checkoutimg">
+                            Commande
+                            </li>
+                        </a>
+                    </ul>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="centerimgdiv"><img src="../images/logo.png"></div>
+    <h2 class="centertext">La meilleure expérience culinaire que Montréal a à offrir</h2>
+
+
+    <section class="mainbody">
+        <div class="reservation-container">
+            <h1>Faire une réservation</h1>
+            <div id="calendar"></div>
+            <div id="reservation-details">
+                <label for="time-select">Horaires disponibles:</label>
+                <select id="time-select" disabled>
+                    <option value="">Sélectionnez une heure</option>
+                </select>
+                <button id="confirm-reservation" disabled>Confirmer la réservation</button>
+            </div>
+            <p id="message"></p>
+            <div id="existing-reservation"></div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            <div class="inner_footer">
+                <ul class="footer_elements">
+                    <a href="#"><li>politique de confidentialité</li></a>
+                    <a href="#"><li>Conditions d'utilisation</li></a>
+                    <a href="https://twitter.com"><li><img class="twitter" src="../images/twitter.png"></li></a>
+                    <a href="https://instagram.com"><li><img class="instagram" src="../images/instagram.png"></li></a>
+                    <a href="https://facebook.com"><li><img class="facebook" src="../images/facebook.png"></li></a>
+                </ul>
+                <h1>droits d'auteur 2024 - Trevor Dallas-MacLellan</h1>
+        </div>
+    </footer>
+
+</body>
+</html>

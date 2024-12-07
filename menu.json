@@ -1,0 +1,62 @@
+[
+    {
+        "image": "../images/springrolls.jpg",
+        "name": {
+            "en": "Spring Rolls",
+            "fr": "Rouleaux de printemps"
+        },
+        "description": {
+            "en": "Fried springrolls with garlic, mushroom, cabbage, and carrots.",
+            "fr": "Rouleaux de printemps frits à l'ail, aux champignons, au chou et aux carottes."
+        },
+        "price": 7.99
+    },
+    {
+        "image": "../images/friedwontons.jpg",
+        "name": {
+            "en": "Fried Wontons",
+            "fr": "Wontons frits"
+        },
+        "description": {
+            "en": "Crispy Wontons filled with pork, ginger, and garlic. Served with sweet chili sauce.",
+            "fr": "Wontons croustillants farcis de porc, de gingembre et d'ail. Servis avec une sauce chili douce."
+        },
+        "price": 9.99
+    },
+    {
+        "image": "../images/kungpaochicken.jpg",
+        "name": {
+            "en": "Kung Pao Chicken",
+            "fr": "Poulet Kung Pao"
+        },
+        "description": {
+            "en": "Grilled chicken served with peanuts, chilis, and fried peppers, served with rice and a spicy Kung Pao sauce.",
+            "fr": "Poulet grillé servi avec des cacahuètes, des piments et des poivrons frits, servi avec du riz et une sauce Kung Pao épicée."
+        },
+        "price": 17.99
+    },
+    {
+        "image": "../images/friedrice.jpg",
+        "name": {
+            "en": "Fried Rice",
+            "fr": "Riz Frit"
+        },
+        "description": {
+            "en": "Fried rice with carrots, peas and spring onions.",
+            "fr": "Riz sauté aux carottes, petits pois et oignons nouveaux."
+        },
+        "price": 13.99
+    },
+    {
+        "image": "../images/sesameballs.jpg",
+        "name": {
+            "en": "Filled sesame balls",
+            "fr": "Boules de sésame farcies"
+        },
+        "description": {
+            "en": "Fried dough balls covered in sesame seeds and filled with a sweet bean paste.",
+            "fr": "Boules de pâte frites recouvertes de graines de sésame et fourrées d'une pâte de haricots sucrée."
+        },
+        "price": 6.99
+    }
+]
